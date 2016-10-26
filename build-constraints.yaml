@@ -2136,7 +2136,7 @@ packages:
 
     "Denis Redozubov <denis.redozubov@gmail.com> @dredozubov":
         - tracy
-        # GHC 8 - hreader-lens
+        - hreader-lens
 
     "Yuji Yamamoto <whosekiteneverfly@gmail.com> @igrep":
         - yes-precure5-command
@@ -2853,7 +2853,7 @@ expected-test-failures:
     # Requires running servers, accounts, or a specific
     # environment. These shouldn't be re-enabled unless we know a fix
     # has been released.
-    - mysql-haskell # Requires local mysql server with a test account, and binlog enabled. 
+    - mysql-haskell # Requires local mysql server with a test account, and binlog enabled.
     - GLFW-b # X
     - HTF # Requires shell script and are incompatible with sandboxed package databases
     - HaRe # # Needs ~/.ghc-mod/cabal-helper https://github.com/fpco/stackage/pull/906
